@@ -1,0 +1,14 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+driver= webdriver.Chrome()
+driver.get("https://www.saucedemo.com/")
+username = driver.find_element(By.ID, "user-name")
+password = driver.find_element(By.NAME, "password")
+login = driver.find_element(By.ID, "login-button")
+username.send_keys("standard_user")
+password.send_keys("secret_sauce")
+print(username.get_attribute("placeholder"))
+print(login.is_enabled())
+print(username.is_displayed())
+login.click()
+#driver.quit()
