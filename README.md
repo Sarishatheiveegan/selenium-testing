@@ -347,3 +347,6 @@ python element_verification.py
 
 
 This project provides hands-on practice with **web automation and functional testing using Selenium and Python**. It covers basic browser automation, element identification, user input, search automation, login testing, element verification, and test OTP handling.
+
+## github link
+https://github.com/Sarishatheiveegan/selenium-testing.git
